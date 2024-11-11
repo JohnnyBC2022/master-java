@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sección2-Variables/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/Sección2-Variables/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Master Java.iml" filepath="$PROJECT_DIR$/.idea/Master Java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seccion4-Operadores/Seccion4-Operadores.iml" filepath="$PROJECT_DIR$/Seccion4-Operadores/Seccion4-Operadores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sección3-Tipo String-Cadenas/Sección3-Tipo String-Cadenas.iml" filepath="$PROJECT_DIR$/Sección3-Tipo String-Cadenas/Sección3-Tipo String-Cadenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sección4-Operadores/Sección4-Operadores.iml" filepath="$PROJECT_DIR$/Sección4-Operadores/Sección4-Operadores.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sección2-Variables/Tarea2/Tarea2.iml" filepath="$PROJECT_DIR$/Sección2-Variables/Tarea2/Tarea2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sección3-Tipo String-Cadenas/Tarea3/Tarea3.iml" filepath="$PROJECT_DIR$/Sección3-Tipo String-Cadenas/Tarea3/Tarea3.iml" />
     </modules>
