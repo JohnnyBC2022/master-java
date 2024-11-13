@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class OperadoresLogicosLogin2 {
@@ -33,17 +34,23 @@ public class OperadoresLogicosLogin2 {
         boolean esAutentificado = false;
 
         for (int i = 0; i < usernames.length; i++) {
-            if (usernames[i].equals(u) && passwords[i].equals(p)) {
+            esAutentificado = (usernames[i].equals(u) && passwords[i].equals(p)) ? true : esAutentificado;
+
+            /*if (usernames[i].equals(u) && passwords[i].equals(p)) {
                 esAutentificado = true;
-                break; // para que no siga iterando si ya encontró al usuario
-            }
+                break; // Si tuvieramos un array muy grande, para que no siga iterando si ya encontró al usuario
+            }*/
         }
 
-        if (esAutentificado) {
+        /*if (esAutentificado) {
             System.out.println("Bienvenido usuario ".concat(u).concat("!"));
         } else {
             System.out.println("El nombre de usuario o contraseña no es correcto");
             System.out.println("Lo siento, es necesario loguearse");
-        }
+        }*/
+        String mensaje = esAutentificado ? "Bienvenido usuario ".concat(u).concat("!") : "El nombre de usuario o contraseña no es correcto. \nLo siento, es necesario loguearse";
+        System.out.println("mensaje = " + mensaje);
+
+
     }
 }
