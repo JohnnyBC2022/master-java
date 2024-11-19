@@ -1,4 +1,4 @@
-public class SentenciaWhile {
+public class BucleWhile {
     public static void main(String[] args) {
 
         int i = 0;
