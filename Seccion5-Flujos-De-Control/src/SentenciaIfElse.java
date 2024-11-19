@@ -9,7 +9,7 @@ public class SentenciaIfElse {
         } else if (media >= 6.0) {
             System.out.println("Muy buen media");
         } else if (media >= 5.5) {
-            System.out.println("Buen media");
+            System.out.println("Buena media");
         } else if (media >= 5.0) {
             System.out.println("Regular, necesitas esforzarte más");
         } else if (media >= 4.0) {
