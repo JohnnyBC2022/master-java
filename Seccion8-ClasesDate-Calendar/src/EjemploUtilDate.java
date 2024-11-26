@@ -16,5 +16,6 @@ public class EjemploUtilDate {
         System.out.println("fechaStr2 = " + fechaStr2);
 
         // Se pueden ver distintos formatos buscando en google SimpleDateFormat Java
+
     }
 }
