@@ -10,7 +10,7 @@ public class PasarPorValor {
     }
 
     // probar poniendo como parámetro Integer i
-    public static void test(int i){
+    public static void test(int i) {
         System.out.println("Iniciamos el método test con i = " + i);
         i = 35;
         System.out.println("Finaliza el método test con i = " + i);
