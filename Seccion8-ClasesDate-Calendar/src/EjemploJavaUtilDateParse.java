@@ -10,7 +10,7 @@ public class EjemploJavaUtilDateParse {
         Scanner s = new Scanner(System.in);
         SimpleDateFormat format = new SimpleDateFormat("dd-MM-yyyy");
 
-        System.out.println(" Introduzca una fecha con formato: dd-MM-yyyy " );
+        System.out.println(" Introduzca una fecha con formato: dd-MM-yyyy ");
 
         try {
             Date fecha = format.parse(s.next());
