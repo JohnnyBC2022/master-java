@@ -7,7 +7,7 @@ public class EjemploJavaUtilCalendar {
         // Calendar es una clase abstracta (no podemos crear una instancia con el operador new)
         Calendar calendario = Calendar.getInstance();
 
-        calendario.set(2024,Calendar.APRIL,25, 18,25,10);
+        calendario.set(2024, Calendar.APRIL, 25, 18, 25, 10);
 
         // hay que tener en cuenta que si ponemos un número mayor que 11 en los meses (Enero es 0) pasa al año siguiente
         // Lo mismo para días, horas, minutos, segundos
