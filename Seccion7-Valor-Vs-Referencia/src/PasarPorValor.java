@@ -15,4 +15,7 @@ public class PasarPorValor {
         i = 35;
         System.out.println("Finaliza el método test con i = " + i);
     }
+
+    // Con Integer (al igual que ocurre con String o Double, Float) es una clase inmutable
+    // cuando cambia el valor cambia la referencia
 }
