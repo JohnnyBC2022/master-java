@@ -9,7 +9,7 @@ public class EjemploEjecutarProgramaSO {
             if (System.getProperty("os.name").toLowerCase().startsWith("Windows")) {
                 proceso = rt.exec("notepad");
             } else {
-                proceso = rt.exec("gedit");
+                proceso = rt.exec("regedit");
             }
             proceso.waitFor();
         } catch (Exception e) {
