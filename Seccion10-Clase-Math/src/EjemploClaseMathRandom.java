@@ -1,5 +1,8 @@
 public class EjemploClaseMathRandom {
     public static void main(String[] args) {
+        /**
+         * Aquí usamos el método random de la clase Math
+         */
 
         double random = Math.random();
         System.out.println("random = " + random); //Devuelve un número aleatorio entre 0-1 (incluye el 0 y no incluye el 1)
