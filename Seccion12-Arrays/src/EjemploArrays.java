@@ -1,7 +1,7 @@
 public class EjemploArrays {
     public static void main(String[] args) {
 
-        int[] numeros = new int[4]; // instanciación del array (los valores por defecto de un entero es 0)
+        int[] numeros = new int[4]; // instanciación del array (el valor por defecto de un entero es 0)
 
         numeros[0] = 1; // inicialización
         numeros[1] = Integer.valueOf("2");
