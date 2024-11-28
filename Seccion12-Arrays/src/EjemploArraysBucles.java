@@ -39,6 +39,7 @@ public class EjemploArraysBucles {
         } while (j < total);
 
         int[] numeros = new int[10];
+
         int totalNum = numeros.length;
         for (int k = 0; k < totalNum; k++) {
             numeros[k] = k * 3;
