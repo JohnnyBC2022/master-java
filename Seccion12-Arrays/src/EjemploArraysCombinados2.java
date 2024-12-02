@@ -15,11 +15,11 @@ public class EjemploArraysCombinados2 {
         }
 
         int aux = 0;
-        for (int i = 0; i < 10; i+=2) {
-            for(int j =0; j < 3; j++) {
-                c[aux++] = a[i+j];
+        for (int i = 0; i < 10; i += 2) {
+            for (int j = 0; j < 3; j++) {
+                c[aux++] = a[i + j];
             }
-            for(int j =0; j < 3; j++) {
+            for (int j = 0; j < 3; j++) {
                 c[aux++] = b[i + j];
             }
         }
