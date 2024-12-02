@@ -14,13 +14,13 @@ public class EjemploArraysBuclesOrdenamientoBurbuja {
         }
     }
 
-    public static void sortBurbuja(Object[] array){
+    public static void sortBurbuja(Object[] array) {
         int total = array.length;
         int contador = 0;
 
         for (int i = 0; i < array.length - 1; i++) {
             for (int j = 0; j < array.length - 1 - i; j++) {
-                if ( ((Comparable)array[j + 1]).compareTo(array[j]) < 0) {
+                if (((Comparable) array[j + 1]).compareTo(array[j]) < 0) {
                     Object auxiliar = array[j];
                     array[j] = array[j + 1];
                     array[j + 1] = auxiliar;
@@ -68,8 +68,8 @@ public class EjemploArraysBuclesOrdenamientoBurbuja {
         numeros[3] = 4;
 
 
-    sortBurbuja(numeros);
-        for (int i =0; i < numeros.length; i++) {
+        sortBurbuja(numeros);
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("i = " + i + " : " + numeros[i]);
         }
     }
