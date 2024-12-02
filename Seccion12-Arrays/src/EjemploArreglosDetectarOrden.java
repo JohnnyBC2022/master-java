@@ -13,30 +13,30 @@ public class EjemploArreglosDetectarOrden {
 
         boolean ascendente = false;
         boolean descendente = false;
-        for (int i = 0; i < a.length -1; i++) {
-            if(a[i] > a[i+1]){
+        for (int i = 0; i < a.length - 1; i++) {
+            if (a[i] > a[i + 1]) {
                 descendente = true;
             }
 
-            if(a[i] < a[i+1]){
+            if (a[i] < a[i + 1]) {
                 ascendente = true;
             }
 
         }
 
-        if (ascendente == true && descendente == true){
+        if (ascendente == true && descendente == true) {
             System.out.println("Arreglo = desordenado");
         }
 
-        if (ascendente == false && descendente == false){
+        if (ascendente == false && descendente == false) {
             System.out.println("Arreglo = todos son iguales");
         }
 
-        if (ascendente == true && descendente == false){
+        if (ascendente == true && descendente == false) {
             System.out.println("Arreglo = ordenado de forma ascendente");
         }
 
-        if (ascendente == false && descendente == true){
+        if (ascendente == false && descendente == true) {
             System.out.println("Arreglo = ordenado de forma descendente");
         }
     }
