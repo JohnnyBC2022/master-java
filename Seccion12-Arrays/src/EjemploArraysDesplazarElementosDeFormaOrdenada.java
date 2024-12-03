@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class EjemploArraysDesplazarPosicionIndicandoPosicion {
+public class EjemploArraysDesplazarElementosDeFormaOrdenada {
     public static void main(String[] args) {
 
-        int[] a = new int[10];
-        int elemento, posicion;
+        int[] a = new int[7];
+        int numero, posicion;
 
         Scanner s = new Scanner(System.in);
 
@@ -14,22 +14,24 @@ public class EjemploArraysDesplazarPosicionIndicandoPosicion {
         }
 
         System.out.println();
-        System.out.println("Nuevo número:");
-        elemento = s.nextInt();
 
-        System.out.println("Indica la posición donde lo quieres insertar (de 0 a 9): ");
-        posicion = s.nextInt();
+        System.out.println("Introduzca el número a insertar");
+        numero = s.nextInt();
 
+        posicion = 0;
+
+        while (posicion < 6 && numero > a[posicion]) {
+            posicion++;
+        }
 
         for (int i = a.length - 2; i >= posicion; i--) {
             a[i + 1] = a[i];
         }
 
-        a[posicion] = elemento;
-
+        a[posicion] = numero;
         System.out.println("El array ahora es: ");
         for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+            System.out.println(i + " => " + a[i]);
         }
     }
 }
