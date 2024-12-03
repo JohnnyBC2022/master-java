@@ -23,8 +23,9 @@ public class EjemploArraysEliminarElemento {
         int[] b = new int[a.length - 1];
         System.arraycopy(a, 0, b, 0, b.length);
 
-        for (int i = 0; i < b.length; i++) {
-            System.out.println(i + " => " + b[i]);
+        a = b;
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(i + " => " + a[i]);
         }
     }
 }
