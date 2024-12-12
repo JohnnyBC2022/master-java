@@ -1,10 +1,57 @@
 public class Automovil {
 
-    String fabricante;
-    String modelo;
-    String color = "rojo";
-    double cilindrada;
-    int capacidadDeposito = 40;
+    private String fabricante;
+    // si hacemos private String fabricante solo se va a poder acceder a este atributo dentro de la clase
+    private String modelo;
+    private String color = "rojo";
+    private double cilindrada;
+    private int capacidadDeposito = 40;
+
+    // Lo habitual es hacer que los atributos sean privados para que no se pueda acceder desde fuera de la clase
+    // Y para que podamos acceder a ellos desde otras clases, se utilizan métodos public para leer
+
+    public String leerFabricante(){
+        return this.fabricante;
+    }
+
+    public String leerModelo(){
+        return this.modelo;
+    }
+
+    public String leerColor(){
+        return this.color;
+    }
+
+    public double leerCilindrada(){
+        return this.cilindrada;
+    }
+
+    public int leerCapacidadDeposito(){
+        return this.capacidadDeposito;
+    }
+
+    // y también métodos para actualizar, modificar o establecer
+    public void asignarFabricante(String fabricante){
+        this.fabricante = fabricante;
+    }
+
+    public void asignarModelo(String modelo){
+        this.modelo = modelo;
+    }
+
+    public void asignarColor(String color){
+        this.color = color;
+    }
+
+    public void asignarCilindrada(double cilindrada){
+        this.cilindrada = cilindrada;
+    }
+
+    public void asignarCapacidadDeposito(int capacidadDeposito){
+        this.capacidadDeposito = capacidadDeposito;
+    }
+
+
 
     /*
     public void detalle(){

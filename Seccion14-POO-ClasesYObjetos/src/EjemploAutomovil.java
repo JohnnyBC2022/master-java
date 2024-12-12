@@ -2,16 +2,34 @@ public class EjemploAutomovil {
     public static void main(String[] args) {
         Automovil toyota = new Automovil();
 
+        /*
+        Ahora ya no accedemos así:
         toyota.fabricante = "Toyota";
         toyota.modelo = "Celica";
         toyota.cilindrada = 2.0;
         toyota.color = "azul";
+         */
+
+        toyota.asignarFabricante("Toyota");
+        toyota.asignarModelo("Celica");
+        toyota.asignarCilindrada(2.0);
+        toyota.asignarColor("azul");
+
+        // Y para leer los datos:
+        System.out.println("Fabricante: " + toyota.leerFabricante());
 
         Automovil mazda = new Automovil();
+        /*
         mazda.fabricante = "Mazda";
         mazda.modelo = "BT-50";
         mazda.cilindrada = 3.0;
         mazda.color = "rojo";
+         */
+
+        mazda.asignarFabricante("Mazda");
+        mazda.asignarModelo("BT-50");
+        mazda.asignarCilindrada(3.0);
+        mazda.asignarColor("rojo");
 
         System.out.println(toyota.detalle());
         System.out.println(mazda.detalle());
