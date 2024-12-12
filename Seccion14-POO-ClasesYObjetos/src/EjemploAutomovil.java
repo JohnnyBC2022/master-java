@@ -1,11 +1,11 @@
 public class EjemploAutomovil {
     public static void main(String[] args) {
-        Automovil auto = new Automovil();
+        Automovil toyota = new Automovil();
 
-        auto.fabricante = "Toyota";
-        auto.modelo = "Celica";
-        auto.cilindrada = 2.0;
-        auto.color = "azul";
+        toyota.fabricante = "Toyota";
+        toyota.modelo = "Celica";
+        toyota.cilindrada = 2.0;
+        toyota.color = "azul";
 
         Automovil mazda = new Automovil();
         mazda.fabricante = "Mazda";
@@ -13,15 +13,14 @@ public class EjemploAutomovil {
         mazda.cilindrada = 3.0;
         mazda.color = "rojo";
 
+        System.out.println(toyota.detalle());
+        System.out.println(mazda.detalle());
 
-        System.out.println("auto.fabricante = " + auto.fabricante);
-        System.out.println("auto.modelo = " + auto.modelo);
-        System.out.println("auto.color = " + auto.color);
-        System.out.println("auto.cilindrada = " + auto.cilindrada);
-        System.out.println();
-        System.out.println("mazda.fabricante = " + mazda.fabricante);
-        System.out.println("mazda.modelo = " + mazda.modelo);
-        System.out.println("mazda.color = " + mazda.color);
-        System.out.println("mazda.cilindrada = " + mazda.cilindrada);
+
+//        System.out.println();
+//        System.out.println("mazda.fabricante = " + mazda.fabricante);
+//        System.out.println("mazda.modelo = " + mazda.modelo);
+//        System.out.println("mazda.color = " + mazda.color);
+//        System.out.println("mazda.cilindrada = " + mazda.cilindrada);
     }
 }

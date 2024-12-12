@@ -4,4 +4,28 @@ public class Automovil {
     String modelo;
     String color = "rojo";
     double cilindrada;
+
+    /*
+    public void detalle(){
+        String modelo = "otro";
+        System.out.println("fabricante = " + this.fabricante);
+        System.out.println("modelo = " + this.modelo);
+        // el this se puede omitir si no tenemos más variables con el mismo nombre. En este caso,
+        // si lo quitamos va a coger el valor "otro"
+        System.out.println("color = " + this.color);
+        System.out.println("cilindrada = " + this.cilindrada);
+        // Esto lo hemos hecho así para el ejemplo, pero se recomienda que dentro de una clase o objetos
+        // no se impriman datos. La idea es que los métodos ejecuten alguna tarea y se impriman en el main
+    }
+
+     */
+
+    public String detalle(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("fabricante = " + this.fabricante);
+        sb.append("\nmodelo = " + this.modelo);
+        sb.append("\ncolor = " + this.color);
+        sb.append("\ncilindrada = " + this.cilindrada);
+        return sb.toString();
+    }
 }
