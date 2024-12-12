@@ -4,6 +4,7 @@ public class Automovil {
     String modelo;
     String color = "rojo";
     double cilindrada;
+    int capacidadDeposito = 40;
 
     /*
     public void detalle(){
@@ -42,5 +43,15 @@ public class Automovil {
         String frenar = frenar();
 
         return acelerar + "\n" + frenar;
+    }
+
+    public float calcularConsumo(int km, float porcentajeGasolina) {
+        return km/(capacidadDeposito*porcentajeGasolina);
+    }
+
+    // Tener dos funciones iguales pero que tienen argumentos con tipos distintos o una cantidad
+    // distinta de parámetros es lo que se conoce como SOBRECARGA DE MÉTODOS.
+    public float calcularConsumo(int km, int porcentajeGasolina) {
+        return km/(capacidadDeposito*(porcentajeGasolina/100f));
     }
 }

@@ -20,6 +20,9 @@ public class EjemploAutomovil {
 
         System.out.println(mazda.acelerarFrenar(2500));
 
+        System.out.println("Kilómetors por litro " + toyota.calcularConsumo(300, 0.75f));
+        System.out.println("Kilómetors por litro " + toyota.calcularConsumo(300, 75));
+
 
 //        System.out.println();
 //        System.out.println("mazda.fabricante = " + mazda.fabricante);
