@@ -28,4 +28,19 @@ public class Automovil {
         sb.append("\ncilindrada = " + this.cilindrada);
         return sb.toString();
     }
+
+    public String acelerar(int rpm){
+        return "El vehículo " + fabricante + " acelerando a " + rpm + " rpm";
+    }
+
+    public String frenar(){
+        return this.fabricante + " " + this.modelo + " frenando!";
+    }
+
+    public String acelerarFrenar(int rpm) {
+        String acelerar = this.acelerar(rpm);
+        String frenar = frenar();
+
+        return acelerar + "\n" + frenar;
+    }
 }
